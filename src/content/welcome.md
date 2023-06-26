@@ -3,12 +3,11 @@ layout: post
 title: '블로그 소개'
 author: [KKH]
 tags: ['introduction']
-image: img/welcome-to-ghost.jpg
+image: img/writing.jpg
 date: '2023-06-19T04:44:37.121Z'
 draft: false
-excerpt: 이 블로그에서 다룰 내용
+excerpt: 이 블로그에서 다루는 내용
 ---
-## 블로그 소개
 
 요즘에 느낀거지만, 알고있는 지식보다 까먹고 있는 지식이 더 많은 느낌이다...;;
 

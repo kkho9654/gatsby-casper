@@ -13,7 +13,7 @@ import { Footer } from '../components/Footer';
 import SiteNav, { SiteNavMain } from '../components/header/SiteNav';
 import PostContent from '../components/PostContent';
 import { ReadNext } from '../components/ReadNext';
-// import { Subscribe } from '../components/subscribe/Subscribe';
+import { Subscribe } from '../components/subscribe/Subscribe';
 import { Wrapper } from '../components/Wrapper';
 import IndexLayout from '../layouts';
 import { colors } from '../styles/colors';
@@ -130,7 +130,7 @@ function PageTemplate({ data, pageContext, location }: PageTemplateProps) {
           <meta property="article:tag" content={post.frontmatter.tags[0]} />
         )}
 
-        {/* {config.facebook && <meta property="article:publisher" content={config.facebook} />}
+        {config.facebook && <meta property="article:publisher" content={config.facebook} />}
         {config.facebook && <meta property="article:author" content={config.facebook} />}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={post.frontmatter.title} />
@@ -157,7 +157,7 @@ function PageTemplate({ data, pageContext, location }: PageTemplateProps) {
             name="twitter:creator"
             content={`@${config.twitter.split('https://twitter.com/')[1]}`}
           />
-        )} */}
+        )}
         {width && <meta property="og:image:width" content={width?.toString()} />}
         {height && <meta property="og:image:height" content={height?.toString()} />}
       </Helmet>
@@ -233,7 +233,7 @@ function PageTemplate({ data, pageContext, location }: PageTemplateProps) {
               <PostContent htmlAst={post.htmlAst} />
 
               {/* The big email subscribe modal content */}
-              {/* {config.showSubscribe && <Subscribe title={config.title} />} */}
+              {config.showSubscribe && <Subscribe title={config.title} />}
             </article>
           </div>
         </main>
@@ -414,8 +414,8 @@ export const PostFullTitle = styled.h1`
 `;
 
 const PostFullImage = styled.figure`
-  margin: 25px 0 50px;
-  height: 800px;
+  margin: 25px 250px 50px;
+  height: 400px;
   background: ${colors.lightgrey} center center;
   background-size: cover;
   border-radius: 5px;

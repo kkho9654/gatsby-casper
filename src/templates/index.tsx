@@ -59,7 +59,7 @@ function IndexPage(props: IndexProps) {
         <meta property="og:description" content={config.description} />
         <meta property="og:url" content={config.siteUrl} />
         <meta property="og:image" content={`${config.siteUrl}${getSrc(props.data.header)}`} />
-        {config.facebook && <meta property="article:publisher" content={config.facebook} />}
+        {/* {config.facebook && <meta property="article:publisher" content={config.facebook} />} */}
         {config.googleSiteVerification && (
           <meta name="google-site-verification" content={config.googleSiteVerification} />
         )}
@@ -68,12 +68,12 @@ function IndexPage(props: IndexProps) {
         <meta name="twitter:description" content={config.description} />
         <meta name="twitter:url" content={config.siteUrl} />
         <meta name="twitter:image" content={`${config.siteUrl}${getSrc(props.data.header)}`} />
-        {config.twitter && (
+        {/* {config.twitter && (
           <meta
             name="twitter:site"
             content={`@${config.twitter.split('https://twitter.com/')[1]}`}
           />
-        )}
+        )} */}
         <meta property="og:image:width" content={width?.toString()} />
         <meta property="og:image:height" content={height?.toString()} />
       </Helmet>
