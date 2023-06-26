@@ -58,7 +58,7 @@ const config: WebsiteConfig = {
   title: 'KKH Dev',
   description: 'Development Blog',
   coverImage: 'img/blog-cover.png',
-  logo: 'img/ghost-logo.png',
+  logo: 'img/logoo.png',
   lang: 'en',
   siteUrl: 'https://khdev.netlify.app',
   github: 'https://github.com/kkho9654',

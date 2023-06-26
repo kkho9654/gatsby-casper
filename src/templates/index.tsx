@@ -132,7 +132,7 @@ function IndexPage(props: IndexProps) {
 
 export const pageQuery = graphql`
   query blogPageQuery($skip: Int!, $limit: Int!) {
-    logo: file(relativePath: { eq: "img/ghost-logo.png" }) {
+    logo: file(relativePath: { eq: "img/logoo.png" }) {
       childImageSharp {
         gatsbyImageData(layout: FIXED)
       }

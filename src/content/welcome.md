@@ -1,12 +1,12 @@
 ---
 layout: post
-title: '블로그 시작!!'
+title: '블로그 소개'
 author: [KKH]
 tags: ['introduction']
 image: img/welcome-to-ghost.jpg
 date: '2023-06-19T04:44:37.121Z'
 draft: false
-excerpt: Welcome, it's great to have you here. We know that first impressions are important, so we've populated your new site with some initial getting started posts that will help you get familiar with everything in no time.
+excerpt: 이 블로그에서 다룰 내용
 ---
 
 **A few things you should know upfront**:
