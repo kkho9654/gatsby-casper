@@ -8,19 +8,22 @@ date: '2023-06-19T04:44:37.121Z'
 draft: false
 excerpt: 이 블로그에서 다룰 내용
 ---
+## 블로그 소개
 
-**A few things you should know upfront**:
+요즘에 느낀거지만, 알고있는 지식보다 까먹고 있는 지식이 더 많은 느낌이다...;;
 
-1. Ghost is designed for ambitious, professional publishers who want to actively build a business around their content. That's who it works best for.
-2. The entire platform can be modified and customised to suit your needs. It's very powerful, but does require some knowledge of code. Ghost is not necessarily a good platform for beginners or people who just want a simple personal blog.
-3. For the best experience we recommend downloading the Ghost Desktop App for your computer, which is the best way to access your Ghost site on a desktop device.
+정리의 필요성을 느꼈다. 
 
-Ghost is made by an independent non-profit organisation called the Ghost Foundation. We are 100% self funded by revenue from our Ghost(Pro) service, and every penny we make is re-invested into funding further development of free, open source technology for modern publishing.
+내가 무엇을 알았고 무엇을 공부했는지에 대해 알 수 있을 것이다.
 
-The version of Ghost you are looking at right now would not have been made possible without generous contributions from the open source community.
+정리된 지식들을 활용해서  
+내가 알게 된, 공부한, 배운 지식들은 완전히 나의 것으로 만들고 싶다.
 
-## Next up, the editor
-
-The main thing you'll want to read about next is probably: the Ghost editor. This is where the good stuff happens.
-
-> By the way, once you're done reading, you can simply delete the default **Ghost** user from your team to remove all of these introductory posts!
+## 카테고리
+> 예정
+1. Project
+2. Computer Science
+   - Algorithm - python
+   - OS
+   - Network
+3. etc
