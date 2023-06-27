@@ -122,9 +122,9 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-plugin-google-gtag',
+      resolve: 'gatsby-plugin-gtag',
       options: {
-        trackingId: ["G-DTMGSGKLVJ"],
+        trackingId: 'G-DTMGSGKLVJ',
         // Puts tracking script in the head instead of the body
         head: true,
         // IP anonymization for GDPR compliance
