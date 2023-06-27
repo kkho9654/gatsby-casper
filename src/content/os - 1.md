@@ -1,14 +1,14 @@
 ---
 layout: post
-title: '운영체제 시작'
+title: '운영체제 - 1'
 author: [KKH]
 tags: ['OS']
 image: img/os.png
 date: '2023-06-26T18:30:37.121Z'
 draft: false
-excerpt: 쉽게 배우는 운영체제 PART 01
+excerpt: 쉽게 배우는 운영체제 PART 01, CH1
 ---
-# Chapter 1 - 운영체제 개요
+# Chapter 1 - 01. 운영체제 소개
 
 ## 운영체제의 필요성
 
