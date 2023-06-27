@@ -122,7 +122,7 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-plugin-google-analytics',
+      resolve: 'gatsby-plugin-gtag',
       options: {
         trackingId: 'G-DTMGSGKLVJ',
         // Puts tracking script in the head instead of the body
