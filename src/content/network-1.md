@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '네트워크의 기본 - 1. 네트워크의 전체적인 모습과 종류'
+title: '1. 네트워크의 전체적인 모습과 종류'
 author: [KKH]
 tags: ['Network', '네트워크']
 image: img/network.png
