@@ -5,7 +5,7 @@ author: [KKH]
 tags: ['Network', '네트워크']
 image: img/network.png
 date: '2023-08-18T23:00:00.000Z'
-draft: false
+draft: true
 excerpt: 한권으로 끝내는 네트워크 기초
 ---
 # 네트워크를 실현하는 기술
