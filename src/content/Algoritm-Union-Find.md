@@ -8,7 +8,8 @@ date: '2023-08-25T23:00:00.000Z'
 draft: false
 ---
 # Union-Find
-
+```toc
+```
 ## Union-Find란?
 
 union find알고리즘은 Disjoint-Set을 구현할 때 활용되는 알고리즘으로 **트리** 구조를 이용한다.  
@@ -87,7 +88,7 @@ find 함수는 현재 재귀함수로 루트임이 판단될 때 까지 계속 �
 
 이렇게 하면 방문한 노드는 바로 부모로 바로 루트를 가지는 **Path Compression**(경로압축)이 되므로 이 후 이 노드들에 대해 find의 탐색시간이 줄게된다.
 
-#### find(x) Code 수정
+##### find(x) Code 수정
 ```python
 def find(x):
     if parent[x] != x:
@@ -102,7 +103,7 @@ Rank라는 배열을 도입해서 각 집합의 레벨을 표시한다.
 
 이렇게 한다면 더 큰 Rank를 가지는 트리 집합에 작은 Rank를 가지는 트리 집합이 붙기 때문에 UNION을 하더라도 트리의 깊이를 낮게 유지시킬 수 있다.
 
-#### **union(x,y)** Code 수정
+##### **union(x,y)** Code 수정
 
 ```python
 def union_by_rank(v1, v2):
