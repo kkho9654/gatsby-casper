@@ -32,7 +32,7 @@ export const PostFullContent = styled.section`
   margin: 0 auto;
   padding: 0 170px 6vw;
   min-height: 230px;
-  font-family: Poor Story, Georgia, serif;
+  font-family: Nanum Gothic, Georgia, serif;
   font-size: 2.3rem;
   line-height: 1.6em;
   background: #fff;
@@ -338,11 +338,10 @@ export const PostFullContent = styled.section`
     padding: 0.4em 1em 0.9em;
     border: 0;
     /* color: var(--blue); */
-    color: ${colors.blue};
+    color: #fff;
     font-family: Georgia, serif;
     font-size: 3.2rem;
     line-height: 1.35em;
-    text-align: center;
   }
   @media (min-width: 1180px) {
     h5 {

@@ -15,7 +15,7 @@ module.exports = {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          `Poor Story`
+          `Nanum Gothic`
         ],
         display: 'swap'
       }
@@ -51,7 +51,17 @@ module.exports = {
               className: "table-of-contents"
             },
           },
-          `gatsby-remark-autolink-headers`,
+          {
+            resolve: `gatsby-remark-autolink-headers`,
+            options: {
+              offsetY: `100`,
+              className: `custom-class`,
+              maintainCase: true,
+              removeAccents: true,
+              isIconAfterHeader: true,
+              elements: [`h2`,`h3`,`h4`],
+            },
+          },
           {
             resolve: 'gatsby-remark-responsive-iframe',
             options: {
