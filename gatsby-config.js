@@ -11,6 +11,15 @@ module.exports = {
     'MarkdownRemark.frontmatter.author': 'AuthorYaml.name',
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Poor Story`
+        ],
+        display: 'swap'
+      }
+    },
     'gatsby-plugin-sitemap',
     'gatsby-plugin-image',
     {

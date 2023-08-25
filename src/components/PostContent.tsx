@@ -32,8 +32,8 @@ export const PostFullContent = styled.section`
   margin: 0 auto;
   padding: 0 170px 6vw;
   min-height: 230px;
-  font-family: Georgia, serif;
-  font-size: 2rem;
+  font-family: Poor Story, Georgia, serif;
+  font-size: 2.3rem;
   line-height: 1.6em;
   background: #fff;
 
@@ -103,7 +103,9 @@ export const PostFullContent = styled.section`
     box-shadow: ${colors.darkgrey} 0 -1px 0 inset;
     transition: all 0.2s ease-in-out;
   }
-
+  a.anchor.before {
+    fill: ${lighten('1', colors.darkmode)};
+  }
   a:hover {
     /* color: var(--blue); */
     color: ${colors.blue};
@@ -115,7 +117,7 @@ export const PostFullContent = styled.section`
   strong,
   em {
     /* color: color(var(--darkgrey) l(-5%)); */
-    color: ${lighten('-0.05', colors.darkgrey)};
+    color: ${lighten('0.08', colors.darkmode)};
   }
 
   small {
@@ -199,7 +201,7 @@ export const PostFullContent = styled.section`
     /* border: ${lighten('-0.1', colors.darkgrey)} 1px solid; */
     /* color: var(--whitegrey); */
     color: ${colors.whitegrey};
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     line-height: 1.5em;
     /* background: color(var(--darkgrey) l(-3%)); */
     /* background: ${lighten('-0.03', colors.darkgrey)}; */

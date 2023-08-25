@@ -293,7 +293,7 @@ function IndexLayout(props: IndexProps) {
 
           ::selection {
             text-shadow: none;
-            background: ${lighten('0.3', colors.blue)};
+            background: ${lighten('-0.8', colors.blue)};
           }
 
           hr {
@@ -304,7 +304,7 @@ function IndexLayout(props: IndexProps) {
             padding: 0;
             height: 1px;
             border: 0;
-            border-top: 1px solid ${lighten('0.1', colors.lightgrey)};
+            border-top: 1px solid ${lighten('0.3', colors.lightgrey)};
           }
 
           audio,
