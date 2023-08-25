@@ -103,7 +103,7 @@ Rank라는 배열을 도입해서 각 집합의 레벨을 표시한다.
 
 이렇게 한다면 더 큰 Rank를 가지는 트리 집합에 작은 Rank를 가지는 트리 집합이 붙기 때문에 UNION을 하더라도 트리의 깊이를 낮게 유지시킬 수 있다.
 
-##### **union(x,y)** Code 수정
+##### union(x,y) Code 수정
 
 ```python
 def union_by_rank(v1, v2):
