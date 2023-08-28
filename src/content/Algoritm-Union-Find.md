@@ -97,7 +97,7 @@ def find(x):
 ```
 
 #### 2.Union 최적화 - union-by-rank
-![unionbyrank](unionbyrank.png)
+![unionbyrank](img/unionbyrank.png)
 Rank라는 배열을 도입해서 각 집합의 레벨을 표시한다.  
 이렇게 해서 더 작은 Rank를 가지는 트리 집합이 더 큰 Rank를 가지는 트리집합에 들어가게 된다.
 
