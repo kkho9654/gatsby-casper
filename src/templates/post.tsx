@@ -244,7 +244,7 @@ function PageTemplate({ data, pageContext, location }: PageTemplateProps) {
                 }}
               /> 
               {/* The big email subscribe modal content */}
-              {config.showSubscribe && <Subscribe title={config.title} />}
+              {/* {config.showSubscribe && <Subscribe title={config.title} />} */}
             </article>
           </div>
         </main>
