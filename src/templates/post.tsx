@@ -21,6 +21,8 @@ import { inner, outer, SiteMain } from '../styles/shared';
 import config from '../website-config';
 import { AuthorList } from '../components/AuthorList';
 
+import { Disqus } from "gatsby-plugin-disqus"
+
 export type Author = {
   name: string;
   bio: string;
@@ -231,7 +233,16 @@ function PageTemplate({ data, pageContext, location }: PageTemplateProps) {
                 </PostFullImage>
               )}
               <PostContent htmlAst={post.htmlAst} />
-
+              <Disqus
+                config={{
+                  /* Replace PAGE_URL with your post's canonical URL variable */
+                  url: `${location.origin}${location.pathname}`,
+                  /* Replace PAGE_IDENTIFIER with your page's unique identifier variable */
+                  identifier: `${location.hash}`,
+                  /* Replace PAGE_TITLE with the title of the page */
+                  title: `${data.markdownRemark.frontmatter.title}`,
+                }}
+              /> 
               {/* The big email subscribe modal content */}
               {config.showSubscribe && <Subscribe title={config.title} />}
             </article>

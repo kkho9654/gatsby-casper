@@ -187,7 +187,9 @@ function IndexLayout(props: IndexProps) {
           }
           code,
           kbd,
-          pre,
+          pre{
+            background-color: #ffffff;
+          },
           samp {
             font-family: monospace, monospace;
             font-size: 1em;
@@ -293,7 +295,7 @@ function IndexLayout(props: IndexProps) {
 
           ::selection {
             text-shadow: none;
-            background: ${lighten('-0.8', colors.blue)};
+            background: ${lighten('0.3', colors.blue)};
           }
 
           hr {

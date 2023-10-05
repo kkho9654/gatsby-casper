@@ -1,3 +1,8 @@
+# memo
+layout-> index.tsx 
+postcontent.tsx
+에서 css수정가능
+
 # gatsby-casper
 
 Demo: https://gatsby-casper.netlify.app

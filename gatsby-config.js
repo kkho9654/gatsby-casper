@@ -12,6 +12,12 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: `gatsby-plugin-disqus`,
+      options: {
+        shortname: `khdev-1`
+      }
+    },
+    {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
@@ -54,7 +60,7 @@ module.exports = {
           {
             resolve: `gatsby-remark-autolink-headers`,
             options: {
-              elements: [`h2`,`h3`,`h4`],
+              elements: [`h2`, `h3`, `h4`],
             },
           },
           {

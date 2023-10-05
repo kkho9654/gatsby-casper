@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "7aa8b11c63d875eb",
+        "id": "653ea003b7f7ba7a",
         "type": "tabs",
         "children": [
           {
-            "id": "f0480f95ce955f73",
+            "id": "6b258691fa88bfaf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "os.md",
+                "file": "Algorithm-(정렬 - 2) Quick Sort.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "e009c96219cf3144",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "os.md",
+                "file": "Algorithm-(정렬 - 2) Quick Sort.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "os.md",
+                "file": "Algorithm-(정렬 - 2) Quick Sort.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "os.md"
+                "file": "Algorithm-(정렬 - 2) Quick Sort.md"
               }
             }
           }
@@ -147,39 +146,50 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f0480f95ce955f73",
+  "active": "6b258691fa88bfaf",
   "lastOpenFiles": [
-    "welcome.md",
+    "Algorithm-Union-Find.md",
+    "Algorithm-(최단거리-2)  Dijkstra.md",
+    "Algorithm-(최단거리-1)  BFS.md",
+    "Algorithm-(정렬 - 1) Merge Sort.md",
+    "Algorithm-(정렬 - 2) Quick Sort.md",
+    "img/mergesort4.png",
+    "img/mergesort3.png",
+    "img/mergesort2png.png",
+    "img/mergesort1.png",
+    "Operation.md",
+    "img/dijkstra_table7.png",
+    "img/dijkstra_table6.png",
+    "img/dijkstra_table5.png",
+    "img/dijkstra4.png",
+    "img/dijkstra_table4.png",
+    "img/dijkstra_table3.png",
+    "asd.md",
+    "spring-1.md",
+    "network-2.3.md",
+    "img/spring",
+    "network-2.2.md",
+    "network-2.1.md",
+    "network-2.md",
+    "img/ipv4.png.sb-d452df7f-gZuCcu",
+    "img/dhcp.md",
+    "os-1.md",
+    "os-4.md",
+    "os-3.md",
+    "os-2.md",
+    "img/ARP.png.crdownload",
+    "img/tcposi.png.md",
+    "network-1.md",
     "os.md",
+    "welcome.md",
     "os copy 3.md",
     "os copy 2.md",
     "os copy.md",
     "os1.md",
     "os_post_1.md",
-    "os-1.md",
-    "os-1 copy.md",
-    "img/os.png",
-    "운영체제.md",
-    "avatars/ghost.png",
-    "avatars/ghost.JPG",
-    "avatars/IMG_4148.JPG",
     "avatars/ghost.png.sb-36ae7fd0-iOgc09",
-    "Untitled.md",
     "img/os.jpg.sb-36ae7fd0-HBHOcH",
     "img/os.jpg.sb-36ae7fd0-fMUeXZ",
-    "Untitled copy 3.md",
-    "Untitled copy 2.md",
-    "Untitled copy.md",
-    "img/os.jpg",
-    "img/writing.jpg",
-    "img/transparent.png",
-    "img/transparent.png.crdownload",
-    "img/logoo.png",
-    "using-the-ghost-editor.md",
-    "purpose-of-education.md",
-    "github-link.md",
-    "gettysburg-address.md",
-    "emancipation-proclamation.md",
-    "a-full-style-test.md"
+    "img/transparent.png.crdownload"
   ]
 }
