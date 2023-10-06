@@ -203,7 +203,7 @@ def dijkstra(graph, start):
 			# 최소거리의 노드를 거쳤을 때가 더 작으면 업데이트 한다.
 			if dist[neighbor_node] > dist[node] + neighbor_distance:
 				# 이 때 업데이트 된 노드를 힙큐에 다시 넣는다
-				heapq.heappush(pq,(neighbor_distance, neighbor_node))
+				heapq.heappush(pq,(dist[node] + neighbor_distance, neighbor_node))
 				dist[neighbor_node] = dist[node] + neighbor_distance
 
 ```

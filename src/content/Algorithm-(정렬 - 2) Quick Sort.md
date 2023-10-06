@@ -26,6 +26,21 @@ MergeSort와 동작방식은 비슷하나 QuickSort는 부분정렬을 pivot을 
 - Combine : 두개의 부분 정렬을 합친다. 
 
 ##  Quick Sort 구현 (python)
+merge sort에서는 divide를 left와 right의 중간값 mid로 했다면 quick sort에서는 임의의 pivot값으로 divde를 한다. 임의의 pivot값이기 때문에 비균등하게 분배된다고 하는 것 이다.
+
+나는 pivot값을 입력 배열의 맨 처음 값으로 하였다. pivot값을 기준으로 pivot값보다 작은 값들을 모아놓은 부분배열과 과 큰 값들을 모아놓은 부분배열 이렇게 두개의 부분배열로 나눈다.
+
+이제 투 포인터를 가지고 pivot을 기준으로 왼쪽에는 pivot값보다 작은 것들로 오른쪽에는 pivot값보다 큰 것들로 정렬할 것이다. 
+
+아래 예시를 보자
+![quicksort](img/quicksort1.png)
+1. left포인터는 pivot보다 작은 값이면 오른쪽으로 넘어가고, right포인터는 반대로 pivot보다 큰 값이면 왼쪽으로 넘어간다
+2. left포인터가 pivot보다 큰 값을 만나면 포인터 stop, 반대로 right포인터는 pivot보다 작은 값을 만나면 포인터 stop! (즉, 포인터가 큰값이나 작은값을 만날때까지 계속 움직인다.)
+	![q](img/quicksort2.png)
+	left포인터는 하나 이동 후 큰 값을 만나고 right는 하나도 못 움직이고 작은값을 바로 만났다
+3. 이제 left포인터가 가르키는 값과 right포인터가 가르키는 값을 교환한다! 교환후 각 포인터는 오른쪽, 왼쪽 방향으로 계속 진행 시킨다.
+4. 이후 1~3번을 반복하다 보면
+
 
 
 ### Initialize
