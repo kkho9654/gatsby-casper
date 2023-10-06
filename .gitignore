@@ -7,7 +7,9 @@ public/
 
 # Gatsby cache
 .cache/
+
 src/content/.obsidian/
+
 # Logs
 logs
 *.log
